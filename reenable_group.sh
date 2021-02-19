@@ -1,6 +1,6 @@
 #!/bin/bash
-### Disables all users in a given group by setting maxsubmitjobs=0
-###    sacctmgr update user someone set maxsubmitjobs=0
+### Re-enable all users in a given group by clearing the maxsubmitjobs value
+###    sacctmgr update user someone set maxsubmitjobs=-1
 
 if [ $# -ne 1 ]
 then

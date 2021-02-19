@@ -1,6 +1,5 @@
 #!/bin/bash
-### Disables all users in a given group by setting maxsubmitjobs=0
-###    sacctmgr update user someone set maxsubmitjobs=0
+### Show all users in a given group
 
 group_entry=$(getent group $1)
 if [ "x$group_entry" = "x" ]
