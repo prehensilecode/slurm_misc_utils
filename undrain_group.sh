@@ -18,5 +18,5 @@ then
 fi
 
 echo "Undraining ${nodes} ..."
-scontrol update nodename=${nodes} state=Resume
+scontrol update nodename=${nodes} state=idle
 
