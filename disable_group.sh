@@ -4,7 +4,7 @@
 
 if [ $# -ne 1 ]
 then
-    echo "disable_group.sh : requires one argument - group"
+    echo "$0: requires one argument - group"
     exit 1
 fi
 
