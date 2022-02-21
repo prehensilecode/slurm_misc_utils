@@ -8,5 +8,5 @@ then
     exit 1
 fi
 
-scontrol update nodename=$1 state=resume
+scontrol update nodename=$1 state=idle
 
